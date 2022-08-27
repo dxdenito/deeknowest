@@ -42,10 +42,24 @@ body {
     color: white;
 }
 
-/* flexbox container globals */
+#intro{
+    height: 100%;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-color: rgba(27, 151, 235, 0.6);
+    background-size: 100% 100%;
+    color: #ffffff;
+    
+}
+
+
+
+/* flexbox container  */
 .container-profile {
     display: flex;
     justify-content: space-between;
+    
+    
 }
 
 .container-profile div {
@@ -54,15 +68,29 @@ body {
 }
 
 .container-profile-personal {
-    flex: 2;
+    flex:1;
+    flex-basis: 50%;
 }
 
-.container-profile-social {
-    flex: 1;
+.holder{
+
+}
+
+.container-profile-intro {
+    flex: 2;
+    flex-basis: 25%;
 }
 
 .container-profile-status {
     flex: 3;
+    flex-basis: 25%;
+}
+#About{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-color: rgba(27, 151, 235, 0.6);
+    background-size: 100% 100%;
+    color: #ffffff; 
 }
 
 
