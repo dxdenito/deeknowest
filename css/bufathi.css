@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+#profile{
+    height: 100%;
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    
+    background-size: 100% 100%; 
+}
+
+.intro-text{
+    padding-top: 10%;
+    padding-left: 30%;
+    color: aliceblue;
+    font-size: 100px;
+    overflow: hidden;
+   
+
+}
+
+.typed-intro{
+    color: aliceblue;
+    font-size: 100px;
+    overflow: hidden;
+    border-right: .15em solid white;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    
+    animation: 
+        typing 1s steps(20, end) forwards, blink .8s infinite;
+}
+@keyframes typing{
+    from { width: 0; }
+    to { width: 60%; }
+}
+@keyframes blink {
+    from{ border-color: transparent}
+    to{ border-color: aliceblue}
+}
+#about{
+    height: 100%;
+    background-image: url("../img/aboutt.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%; 
+}
+.aboutleft{
+    width: 50%;
+    float: left;
+}
+.aboutlefttext{
+    font-size: 50px
+}
+.aboutright{
+    width: 50%;
+    height: 70%;
+    margin-top: 10%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 5px 5px 5px 5px #002;
+    float: right;
+    background-color: aliceblue;
+}
